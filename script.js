@@ -1,14 +1,14 @@
 $(document).ready(() =>{
-    $('.hint-box').click({
+    $('.hint-box').on('click', () => {
       $('.hint').slideToggle(500)
     })
-    $('.wrong-answer-one').click({
-        $('.wrong-answer-one').fadeOut('fast')
+    $('.wrong-answer-one').on('click', () => {
+        $('.wrong-answer-one').fadeOut(500)
     })
-    $('.wrong-answer-two').click({
-        $('.wrong-answer-two').fadeOut('fast')
+    $('.wrong-answer-two').on('click', () => {
+        $('.wrong-answer-two').fadeOut(500)
     })
-    $('.wrong-answer-three').click({
-        $('.wrong-answer-three').fadeOut('fast')
+    $('.wrong-answer-three').on('click', () => {
+        $('.wrong-answer-three').fadeOut(500)
     })
 });
